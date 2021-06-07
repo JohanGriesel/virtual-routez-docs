@@ -1,10 +1,10 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Virtual Routez',
-  tagline: 'Track your suppply chain from start to finish',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'Track your supply chain from start to finish',
+  url: 'https://JohanGriesel.github.io',
   baseUrl: '/',
-  organizationName: 'johangriesel', // Usually your GitHub org/user name.
+  organizationName: 'JohanGriesel', // Usually your GitHub org/user name.
   projectName: 'virtual-routez-docs', // Usually your repo name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -37,10 +37,10 @@ module.exports = {
         {
           title: 'Docs',
           items: [
-            {
-              label: 'Integration',
-              to: '/docs/integration',
-            },
+            // {
+            //   label: 'Integration',
+            //   to: '/docs/integration',
+            // },
           ],
         },
         {
