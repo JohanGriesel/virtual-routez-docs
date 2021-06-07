@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 
@@ -11,7 +12,10 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
+        {/*<h1 className="hero__title">{siteConfig.title}</h1>*/}
+          <p align="center">
+              <img alt="VRZ Logo"  width="500" src={useBaseUrl('img/app_logo.png')} />
+          </p>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
@@ -33,7 +37,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        {/*<HomepageFeatures />*/}
       </main>
     </Layout>
   );

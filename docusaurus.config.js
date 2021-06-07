@@ -4,11 +4,11 @@ module.exports = {
   tagline: 'Track your suppply chain from start to finish',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
+  organizationName: 'johangriesel', // Usually your GitHub org/user name.
+  projectName: 'virtual-routez-docs', // Usually your repo name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'johangriesel', // Usually your GitHub org/user name.
-  projectName: 'virtual-routez', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Virtual Routez',
@@ -25,7 +25,7 @@ module.exports = {
         },
         // {to: '/blog', label: 'Blog', position: 'left'}, // No blog
         {
-          href: 'https://github.com/johangriesel/virtual-routez',
+          href: 'https://github.com/johangriesel/virtual-routez-docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -85,7 +85,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/johangriesel/virtual-routez/',
+            'https://github.com/johangriesel/virtual-routez-docs/',
         },
         blog: {
           showReadingTime: true,
