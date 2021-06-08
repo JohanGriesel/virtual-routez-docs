@@ -1,0 +1,1 @@
+(self.webpackChunkvirtual_routez_documentation=self.webpackChunkvirtual_routez_documentation||[]).push([[913],{4201:function(u){"use strict";u.exports=JSON.parse('{"allTagsPath":"/virtual-routez-docs/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"/virtual-routez-docs/blog/tags/docusaurus"}')}}]);

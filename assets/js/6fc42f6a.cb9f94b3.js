@@ -1,0 +1,1 @@
+(self.webpackChunkvirtual_routez_documentation=self.webpackChunkvirtual_routez_documentation||[]).push([[708],{9653:function(o){"use strict";o.exports=JSON.parse('{"allTagsPath":"/virtual-routez-docs/blog/tags","slug":"facebook","name":"facebook","count":1,"permalink":"/virtual-routez-docs/blog/tags/facebook"}')}}]);

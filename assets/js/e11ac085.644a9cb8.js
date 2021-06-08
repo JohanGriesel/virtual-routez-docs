@@ -1,0 +1,1 @@
+(self.webpackChunkvirtual_routez_documentation=self.webpackChunkvirtual_routez_documentation||[]).push([[272],{8197:function(t){"use strict";t.exports=JSON.parse('{"allTagsPath":"/virtual-routez-docs/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/virtual-routez-docs/blog/tags/hello"}')}}]);
